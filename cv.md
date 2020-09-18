@@ -15,22 +15,23 @@ _Email: ercenmancaev@gmail.com_
 + Git
 
 3. ####  _Code_
-``` const bubbleSort = (items) => {
-  let stepsCount = items.length-1;
-  let swapped;
-  do {
-    swapped = false;
-    for (let i = 0; i < stepsCount; i += 1) {
-      if (items[i] > items[i + 1]) {
-        let temp = items[i];
-        items[i] = items[i + 1];
-        items[i + 1] = temp;
-      }
-    }
-    stepsCount -= 1;
-  } while (swapped); 
-  return items;
-};
+```
+const bubbleSort = (items)  => {<br>
+  let stepsCount = items.length-1;<br>
+  let swapped;<br>
+  do {<br>
+    swapped = false;<br>
+    for (let i = 0; i < stepsCount; i += 1) {<br>
+      if (items[i] > items[i + 1]) {<br>
+        let temp = items[i];<br>
+        items[i] = items[i + 1];<br>
+        items[i + 1] = temp;<br>
+      }<br>
+    }<br>
+    stepsCount -= 1;<br>
+  } while (swapped); <br>
+  return items;<br>
+};<br>
 console.log(bubbleSort([3, 2, 10, -2, 0]));
 ```
 4. #### _Experience_
